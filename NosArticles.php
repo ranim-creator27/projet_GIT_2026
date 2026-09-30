@@ -8,6 +8,10 @@
 <body>
     <?php  
     $articles=["imprimante","stylet","enceintes","Tablette"];
+    /*if (isset($articles))
+        echo "<h1>Liste des articles</h1>";
+    else echo "aucun articles à afficher";*/
+    echo isset($articles)? "<h1>Liste des articles</h1>":"aucun articles à afficher";
     ?>
     <ul>
         <?php
